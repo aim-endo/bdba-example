@@ -6,7 +6,7 @@ namespace myqt {
 
 int qtVersion()
 {
-    std::string v = qVersion();
+    const std::string v = qVersion();
     return std::stoi(v);
 }
 
