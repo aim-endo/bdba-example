@@ -1,6 +1,7 @@
 #include <iostream>
 #include "mycuda.h"
 #include "myqt.h"
+#include "myssl.h"
 
 int main(int argc, const char** argv)
 {
@@ -8,6 +9,7 @@ int main(int argc, const char** argv)
     std::cout << "  nvidia driver = " << mycuda::driverVersion() << std::endl;
     std::cout << "  cuda runtime  = " << mycuda::runtimeVersion() << std::endl;
     std::cout << "  qt version    = " << myqt::qtVersion() << std::endl;
+    std::cout << "  ssl version   = " << myssl::sslVersion() << std::endl;
 
     return 0;
 }
