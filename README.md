@@ -15,6 +15,12 @@ BDBA (black duck binary analysis) オプション実行用サンプル
 - Torch
 - OpenSSL
 
+### 成果物
+
+```
+normal-example/build/bdba-example1
+```
+
 ## 2. conan-example
 
 conan パッケージマネージャを使ったサンプル
@@ -27,3 +33,9 @@ conan パッケージマネージャを使ったサンプル
 - CUDA 
 - Torch
 - OpenSSL (conan で指定)
+
+### 成果物
+
+```
+normal-example/build/bin/bdba-example2
+```
