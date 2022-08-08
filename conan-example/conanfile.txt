@@ -1,0 +1,6 @@
+[requires]
+qt/5.15.5
+openssl/1.1.1o
+
+[generators]
+cmake
