@@ -21,6 +21,9 @@ set(PROJECT_INCLUDES
 
 set(PROJECT_LIBRARIES
     Qt5::Core
+    Qt5::Gui
+    Qt5::Widgets
+    Qt5::Concurrent
     ${CUDA_LIBRARIES}
     ${TORCH_LIBRARIES}
     ${OPENSSL_LIBRARIES}
